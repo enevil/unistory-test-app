@@ -7,6 +7,8 @@ import UITextarea from "../UI/UITextarea/UITextarea";
 import ModalWindow from "../ModalWindow/ModalWindow";
 import css from "./PostAddForm.module.css";
 
+// Переиспользуемый компонент, в зависимости от пропса edit меняет свое поведение
+
 export default function PostAddForm({ edit }) {
 	const navigate = useNavigate();
 	const { postsData, addPost, editPost, deletePost } = useContext(AppStorage);
