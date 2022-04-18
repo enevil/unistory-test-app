@@ -1,0 +1,17 @@
+.container {
+	display: grid;
+	gap: 0.5rem;
+	align-items: stretch;
+}
+
+/* Предотвращаем переполнение и поломку сетки */
+.content,
+.title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.content {
+	padding: 25px;
+	border: 1px solid var(--black);
+}
