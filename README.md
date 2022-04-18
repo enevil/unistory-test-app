@@ -21,3 +21,9 @@ _[Ссылка](https://velvety-hummingbird-0dbf04.netlify.app/) на прило
 -   "/" (Блог с карточками постов)
 -   "/add" (Добавить пост)
 -   "/:postId" (Просмотр/изменение конкретного поста)
+
+## Скриншоты
+![screenshot_blog](https://user-images.githubusercontent.com/91529586/163883838-bb47937f-776b-47b2-b3bb-22191fb4aa72.png)
+![screenshot_post](https://user-images.githubusercontent.com/91529586/163883853-c34816d1-77f6-4505-af3f-908c0902aecb.png)
+
+
