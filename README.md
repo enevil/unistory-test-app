@@ -1,4 +1,4 @@
-# UniStory Test App
+# Unistory Test App
 
 _[Ссылка](https://velvety-hummingbird-0dbf04.netlify.app/) на приложение_
 
