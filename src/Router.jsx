@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Blog from "./components/Blog/Blog";
-import PostAddForm from "./components/PostAddForm/PostAddForm";
+import PostAddForm from "./components/Post/Post";
 import MainLayout from "./MainLayout";
 
 function Router() {
@@ -8,8 +8,7 @@ function Router() {
 		<Routes>
 			<Route path="/" element={<MainLayout />}>
 				<Route index element={<Blog />} />
-				<Route path="add" element={<PostAddForm />} />
-				<Route path=":postId" element={<PostAddForm edit />} />
+				<Route path=":postId" element={<PostAddForm />} />
 			</Route>
 		</Routes>
 	);

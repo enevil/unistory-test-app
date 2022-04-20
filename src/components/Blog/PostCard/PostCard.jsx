@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 import UIButton from "../../UI/UIButton/UIButton";
-import css from "./PostCard.module.css";
 
 export default function PostCard({ _id, title, content }) {
 	return (
-		<div className={css.container}>
-			<h3 className={css.title}>{title}</h3>
-			<div className={css.content}>{content}</div>
+		<li className="card card__container">
+			<h3 className="text-overflow">{title}</h3>
+			<p className="text-overflow card__content">{content}</p>
 			<Link to={_id}>
 				<UIButton>Перейти</UIButton>
 			</Link>
-		</div>
+		</li>
 	);
 }
